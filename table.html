@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating A Table</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        h1{
+            padding-top: 10px;
+            margin-top:;            background-color: yellow;
+        }
+        main{
+            text-align: center;
+            background-color: red;
+            padding-bottom: 10px;
+            margin-top: 0px;
+        }
+        caption{
+         background-color: blue;
+         color: white;
+         margin-bottom: 6px;
+         margin-top: 5px;
+         padding:4px;
+        }
+      table {
+        border-collapse: collapse;
+        text-align: right;
+        margin: 0 auto;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 5px 10px;
+        background-color: aqua;
+        color: blue
+      }
+    </style>
+  </head>
+  <body>
+   <main> <h1>Html Table</h1>
+    <table>
+        <caption>Employe List </caption>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Ayshi</td>
+          <td>CEO</td>
+          <td>5000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>SAFA</td>
+          <td>CFO</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Yeamin</td>
+          <td>Pedo</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Asrafin</td>
+          <td>Randi</td>
+          <td>5000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="4" >Total Employe =04</td>
+        </tr>
+      </tfoot>
+    </table>
+</main>
+  </body>
+</html>
