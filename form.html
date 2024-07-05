@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOW To BUILD A FORM</title>
+    <!-- <link rel="stylesheet" href="style/form.css">  -->
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h2>Please fill up the form</h2>
+        <form>
+          <label for="name"
+            >Your Name:
+            <input type="text" name="" id="name" placeholder=" Your Name" />
+          </label>
+          <label for="email">
+            Your Email:
+            <input
+              type="email"
+              id="email"
+              placeholder="Please Enter Your email"
+            />
+          </label>
+          <label for="phone"
+            >Your Phone:
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+880"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            />
+          </label>
+          <fieldset>
+            <legend>Gander</legend>
+            <label for="radio">
+              <input type="radio" name="Dishwasher" id="radio" />Sigma
+            </label>
+            <label for="radio">
+              <input type="radio" name="Dishwasher" id="radio" />Dishwasher
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>pick one hobby</legend>
+            <label for="checkbox"
+              >Watching Movies<input
+                type="checkbox"
+                name="Movies"
+                id="checkbox"
+              />Watching Movies</label
+            >
+            <label for="checkbox"
+              ><input
+                type="checkbox"
+                name="Sleeping"
+                id="checkbox"
+              />Sleeping</label
+            >
+            <label for="checkbox"
+              ><input type="checkbox" name="Dishwasher" id="checkbox" />Dish
+              washing</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Opinion</legend>
+            <textarea name="" id="" cols="30" rows="4"></textarea>
+          </fieldset>
+          <fieldset id="button">
+            <label for="reset"><input type="reset" value="reset" /></label>
+            <label for="submit"><input type="submit" /></label>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
