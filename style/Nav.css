@@ -1,0 +1,28 @@
+*{
+    margin: none;
+}
+body{
+    background-color: rgba(196, 49, 49, 0.425);
+    margin:0px;
+    padding: none;
+}
+
+nav >ul {
+    display: flex;
+    background-color:rgba(196, 49, 49, 0.425);
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: rgba(17, 17, 16, 0.808);
+    
+}
+nav li:hover{
+   background-color: rgb(255, 240, 240); 
+}
